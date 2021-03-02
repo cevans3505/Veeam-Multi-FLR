@@ -13,7 +13,8 @@ The above copyright notice and this permission notice shall be included in all c
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ## Project Notes
-**Author:** Chris Evans
+**Author:** Chris Evans <br>
+**Thank you!:** https://github.com/fullenw1 and his blog (https://itluke.online/2019/01/28/how-to-validate-the-file-parameter-in-powershell/#Valid%20and%20invalid%20syntax) where I found his AWESOME write-up on validating file/folder paths. Without this I never would've been able to figure out how to validate folder/file paths like I wanted.
 
 **Description:**
 Allows for restoring the same folder/file from multiple backups to a separate location (ie. 'Copy To' functionality)
@@ -51,3 +52,4 @@ Restored files will be named *"RESTORED_%d-%b-%Y_%H-%M-%S \<original filename\>"
 * Implement an option to choose multiple folders/files rather than 1 at a time
 * Improve error handling/validation
 * Consolidate/Refactor code to make it look neater
+* Probably should add better comments/debugging as well
