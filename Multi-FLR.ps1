@@ -1,4 +1,5 @@
 #$DebugPreference = 'Continue'
+Add-PSSnapin VeeamPSSnapin
 
 function Test-RestorePath {
     <#
