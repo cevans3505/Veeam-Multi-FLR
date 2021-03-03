@@ -41,7 +41,7 @@ Restored files will be named *"RESTORED_%d-%b-%Y_%H-%M-%S \<original filename\>"
 * **Job Name:** Name of the job which backs up the server you wish to restore files from.
 * **Server Name:** Hostname of the server you wish to restore files from.
 * **Folder or File to Restore:** Path to folder or file which you would like to restore. (Example: _C:\temp\\_ or _C:\temp\file.txt_)
-* **Copy To:** Drive path (or UNC path) where restored folder or file(s) will be copied to. (Example: _C:\temp\\_ or _\\servername\c$\temp\\_)
+* **Copy To:** Drive path (or UNC path) where restored folder or file(s) will be copied to. (Example: _C:\temp\\_ or _\\\servername\c$\temp\\_)
 
 **Features**
 * Basic error handling. It's not hard to break it if you purposefully input bogus information, but it should account for most common stuff.
